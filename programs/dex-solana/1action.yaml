@@ -1,0 +1,19 @@
+例1）Organic を含むチャネルグループの1日ごとのセッションを取得
++d_f_analyze_document_1:
+  action>: DFAnalyzeDocument
+  display_name>: 'Document Forceでドキュメントを解析'
+  provider_id: documentforce_03f3151d6f9accddcffa
+  endpoint: 'https://app.aipuncher.com/api/v2/analyse/****************'
+  action>: GetFile
+  display_name>: 'ファイルを取得'
+  provider: local
+  filename: rc_36b0011677688bf489d7
+  private: false
+  meta:
+    display:
+      filename:
+        label: 'sample-card.png'
+        icon: text
+        type: chip
+    action:
+      disabled: false
